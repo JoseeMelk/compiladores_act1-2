@@ -1,0 +1,15 @@
+cd "path||ubicacion"
+
+git init
+
+git status
+
+git add .
+
+git commit -m "Se agrega los archivos de la actividad"
+
+git branch -M main
+
+git remote add origin https://github.com/JoseeMelk/compiladores_act1-2.git
+
+git push -u origin main
